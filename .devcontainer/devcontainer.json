@@ -1,7 +1,7 @@
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
     "hostRequirements": {
-        "cpus": 4
+        "cpus": 1
     },
     "name": "OctoFit App codespace",
     "postCreateCommand": "sudo chmod +x ./.devcontainer/post_create.sh && ./.devcontainer/post_create.sh",
